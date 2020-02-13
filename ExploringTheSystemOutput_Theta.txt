@@ -1,280 +1,597 @@
-Last login: Thu Feb  6 15:07:19 on ttys000
-maclab-85:~ lance002$ pwd
-/Users/lance002
+Last login: Thu Feb 13 14:04:07 on console
 maclab-85:~ lance002$ ls
 Desktop		Downloads	Movies		Pictures	PycharmProjects
 Documents	Library		Music		Public
-maclab-85:~ lance002$ cd /usr/bin
-maclab-85:bin lance002$ pwd
-/usr/bin
-maclab-85:bin lance002$ ls
-2to3-				file				malloc_history32		seq
-2to3-2.7			filebyproc.d			man				serialver
-AssetCacheLocatorUtil		filtercalltree			manpath				servertool
-AssetCacheManagerUtil		find				mcxquery			setregion
-AssetCacheTetheratorUtil	find2perl			mcxrefresh			setuids.d
-BuildStrings			find2perl5.18			mddiagnose			sfltool
-CpMac				findrule			mdfind				sftp
-DeRez				findrule5.18			mdimport			shar
-GetFileInfo			finger				mdls				shasum
-IOAccelMemory			fixproc				mdutil				shasum5.18
-MergePef			flex				memory_pressure			shlock
-MvMac				flex++				mesg				showmount
-ResMerger			fmt				mib2c				sigdist.d
-Rez				fold				mib2c-update			sips
-RezDet				fontrestore			mig				size
-RezWack				footprint			mkbom				slogin
-SafeEjectGPU			format-sql			mkdep				smbutil
-SetFile				format-sql5.18			mkfifo				smtpd.py
-SplitForks			from				mklocale			smtpd2.7.py
-UnRezWack			fs_usage			mktemp				snfsdefrag
-a2p				funzip				mmroff				snmp-bridge-mib
-a2p5.18				fuser				mnthome				snmpbulkget
-actool				fwkdp				moo-outdated			snmpbulkwalk
-addftinfo			fwkpfv				moo-outdated5.18		snmpconf
-afclip				g++				moose-outdated			snmpdelta
-afconvert			gatherheaderdoc			moose-outdated5.18		snmpdf
-afhash				gcc				more				snmpget
-afida				gcore				mp2bug				snmpgetnext
-afinfo				gcov				msgs				snmpinform
-afmtodit			gdiffmk				nano				snmpnetstat
-afplay				gem				nasm				snmpset
-afscexpand			gen_bridge_metadata		native2ascii			snmpstatus
-agentxtrap			gencat				nbdst				snmptable
-agvtool				genstrings			nc				snmptest
-alias				getconf				ncal				snmptranslate
-applesingle			getopt				ncctl				snmptrap
-appletviewer			getopts				ncdestroy			snmpusm
-apply				git				ncinit				snmpvacm
-apropos				git-cvsserver			nclist				snmpwalk
-apt				git-receive-pack		ncurses5.4-config		sntp
-ar				git-shell			ndisasm				soelim
-arch				git-upload-archive		neqn				sort
-as				git-upload-pack			net-server			spfd
-asa				gm4				net-server5.18			spfd5.18
-asctl				gnumake				net-snmp-cert			spfquery
-assetutil			gperf				net-snmp-config			spfquery5.18
-at				grep				net-snmp-create-v3-user		splain
-atos				grn				nettop				splain5.18
-atq				grodvi				newaliases			split
-atrm				groff				newgrp				sqlite3
-atsutil				groffer				newproc.d			ssh
-automator			grog				nfsstat				ssh-add
-auval				grolbp				nice				ssh-agent
-auvaltool			grolj4				nl				ssh-copy-id
-avbdiagnose			grops				nm				ssh-keygen
-avbutil				grotty				nmedit				ssh-keyscan
-avconvert			groups				nohup				stapler
-avmetareadwrite			gunzip				notifyutil			stat
-awk				gzcat				nroff				stringdups
-banner				gzexe				nscurl				stringdups32
-base64				gzip				nslookup			strings
-basename			h2ph				nsupdate			strip
-bashbug				h2ph5.18			objdump				stty.pl
-batch				h2xs				ocspcheck			stty5.18.pl
-bc				h2xs5.18			od				su
-bg				hash				odutil				sudo
-biff				hdid				open				sum
-binhex				hdiutil				opendiff			svn
-binhex.pl			hdxml2manxml			opensnoop			svnadmin
-binhex5.18.pl			head				openssl				svndumpfilter
-bioutil				headerdoc2html			orbd				svnlook
-bison				heap				osacompile			svnserve
-bitesize.d			heap32				osadecompile			svnsync
-brctl				hexdump				osalang				svnversion
-bsdtar				hidutil				osascript			sw_vers
-bspatch				hiutil				otool				swift
-btmmdiagnose			host				pack200				swiftc
-bunzip2				hostinfo			package-stash-conflicts		symbols
-bzcat				hotspot.d			package-stash-conflicts5.18	symbolscache
-bzcmp				hpftodit			pagesize			syscallbypid.d
-bzdiff				hpmdiagnose			pagestuff			syscallbyproc.d
-bzegrep				htmltree			par.pl				syscallbysysc.d
-bzfgrep				htmltree5.18			par5.18.pl			sysdiagnose
-bzgrep				ibtool				parl				syslog
-bzip2				iconutil			parl5.18			systriage
-bzip2recover			iconv				parldyn				tab2space
-bzless				ictool				parldyn5.18			tabs
-bzmore				id				passwd				tail
-c++				idle				paste				tailspin
-c++filt				idle2.7				patch				talk
-c2ph				idlj				pathchk				tar
-c2ph5.18			imptrace			pathopens.d			taskinfo
-c89				indent				pbcopy				tbl
-c99				indxbib				pbpaste				tbtdiagnose
-caffeinate			info				pcap-config			tccutil
-cal				infocmp				pcsctest			tclsh
-calendar			infokey				perl				tclsh8.5
-cancel				infotocap			perl5.18			tee
-cap_mkdb			install				perlbug				texi2dvi
-captoinfo			install-info			perlbug5.18			texi2pdf
-cc				install_name_tool		perldoc				texindex
-cd				instmodsh			perldoc5.18			textutil
-certtool			instmodsh5.18			perlivp				tfmtodit
-checknr				instruments			perlivp5.18			tftp
-chflags				iofile.d			perlthanks			thermal
-chfn				iofileb.d			perlthanks5.18			tic
-chgrp				iopattern			pfbtops				tidy
-chpass				iopending			pgrep				tiff2icns
-chsh				iosnoop				phar				tiffutil
-cksum				iotop				phar.phar			time
-clang				ip2cc				php				timer_analyser.d
-clang++				ip2cc5.18			php-config			timerfires
-clear				ipcount				phpize				tkcon
-cmp				ipcount5.18			pic				tkmib
-cmpdylib			ipcrm				pico				tkpp
-codesign			ipcs				piconv				tkpp5.18
-codesign_allocate		ippfind				piconv5.18			tmdiagnose
-col				ipptool				pidpersec.d			tmutil
-colcrt				iprofiler			pkgbuild			tnameserv
-colldef				iptab				pkill				toe
-colrm				iptab5.18			pl				top
-column				irb				pl2pm				tops
-comm				jar				pl2pm5.18			topsyscall
-command				jarsigner			plockstat			topsysproc
-compress			java				pluginkit			touch
-compression_tool		javac				plutil				tput
-config_data			javadoc				pmset				tr
-config_data5.18			javah				pod2html			trace
-corebrightnessdiag		javap				pod2html5.18			traptoemail
-corelist			javapackager			pod2latex			treereg
-corelist5.18			javaws				pod2latex5.18			treereg5.18
-cpan				jcmd				pod2man				trimforce
-cpan2dist			jconsole			pod2man5.18			troff
-cpan2dist5.18			jcontrol			pod2readme			true
-cpan5.18			jdb				pod2readme5.18			tset
-cpanp				jdeps				pod2text			tsort
-cpanp-run-perl			jhat				pod2text5.18			tty
-cpanp-run-perl5.18		jhsdb				pod2usage			type
-cpanp5.18			jimage				pod2usage5.18			ul
-cpio				jinfo				podchecker			ulimit
-cpp				jjs				podchecker5.18			umask
-cpu_profiler.d			jmap				podselect			unalias
-cpuwalk.d			jmc				podselect5.18			uname
-crc32				jobs				policytool			uncompress
-crc325.18			join				post-grohtml			unexpand
-creatbyproc.d			jot				power_report.sh			unifdef
-crlrefresh			jps				powermetrics			unifdefall
-crontab				jrunscript			pp				uniq
-csdiagnose			jsadebugd			pp5.18				units
-csgather			jshell				ppdc				unpack200
-csplit				json_pp				ppdhtml				unvis
-csreq				json_pp5.18			ppdi				unzip
-csrutil				jstack				ppdmerge			unzipsfx
-ctags				jstat				ppdpo				update_dyld_shared_cache
-ctf_insert			jstatd				pr				uptime
-cu				jvisualvm			pre-grohtml			usbkdp
-cups-config			kcc				priclass.d			users
-cupstestdsc			kdestroy			pridist.d			uucp
-cupstestppd			kextutil			printenv			uudecode
-curl				keytool				printf				uuencode
-curl-config			kgetcred			procsystime			uuidgen
-cut				kill.d				productbuild			uulog
-cvaffinity			killall				productsign			uuname
-cvcp				kinit				profiles			uupick
-cvmkdir				klist				prove				uustat
-cvmkfile			kpasswd				prove5.18			uuto
-dappprof			krb5-config			psed				uux
-dapptrace			kswitch				psed5.18			vi
-darwinup			ktrace				pstopdf				view
-db_archive			lam				pstruct				vim
-db_checkpoint			last				pstruct5.18			vimdiff
-db_codegen			lastcomm			ptar				vimtutor
-db_deadlock			lastwords			ptar5.18			vis
-db_dump				latency				ptardiff			vm_stat
-db_hotbackup			layerutil			ptardiff5.18			vmmap
-db_load				ld				ptargrep			vmmap32
-db_printlog			ldapadd				ptargrep5.18			w
-db_recover			ldapcompare			pubsub				wait
-db_stat				ldapdelete			pwhich				wall
-db_upgrade			ldapexop			pwhich5.18			wc
-db_verify			ldapmodify			pwpolicy			wdutil
-dbicadmin			ldapmodrdn			pydoc				what
-dbicadmin5.18			ldappasswd			pydoc2.7			whatis
-dbilogstrip			ldapsearch			python				whereis
-dbilogstrip5.18			ldapurl				python-config			which
-dbiprof				ldapwhoami			python2.7			who
-dbiprof5.18			leaks				python2.7-config		whoami
-dbiproxy			leaks32				pythonw				whois
-dbiproxy5.18			leave				pythonw2.7			wish
-dc				less				qc2movie			wish8.5
-debinhex.pl			lessecho			qlmanage			write
-debinhex5.18.pl			lex				qtdefaults			wsgen
-defaults			libnetcfg			qtmodernizer			wsimport
-delv				libnetcfg5.18			quota				xar
-desdp				libtool				rails				xargs
-diagnose-fu			lipo				rake				xattr
-diff				lkbib				ranlib				xattr-2.7
-diff3				lldb				rdoc				xcode-select
-diffstat			llvm-g++			read				xcodebuild
-dig				llvm-gcc			readlink			xcrun
-dirname				loads.d				rebase				xcscontrol
-dispqlen.d			locale				redo_prebinding			xcsdiagnose
-ditto				localedef			refer				xed
-dmc				locate				renice				xgettext.pl
-dns-sd				lockstat			reset				xgettext5.18.pl
-drutil				log				resolveLinks			xip
-dscacheutil			logger				rev				xjc
-dscl				login				ri				xml2-config
-dserr				logname				rmic				xml2man
-dsexport			look				rmid				xmlcatalog
-dsimport			lookbib				rmiregistry			xmllint
-dsmemberutil			lorder				rpcgen				xpath
-dsymutil			lp				rs				xpath5.18
-dtruss				lpoptions			rsync				xslt-config
-du				lpq				ruby				xsltproc
-dwarfdump			lpr				rvictl				xsubpp
-easy_install			lprm				rview				xsubpp5.18
-easy_install-2.7		lpstat				rvim				xxd
-egrep				lsappinfo			rwbypid.d			yaa
-emacs				lsbom				rwbytype.d			yacc
-emacs-undumped			lskq				rwsnoop				yes
-emacsclient			lsm				s2p				zcat
-enc2xs				lsmp				s2p5.18				zcmp
-enc2xs5.18			lsvfs				safaridriver			zdiff
-encode_keychange		lwp-download			sample				zegrep
-env				lwp-download5.18		sampleproc			zfgrep
-eqn				lwp-dump			sandbox-exec			zforce
-erb				lwp-dump5.18			say				zgrep
-errinfo				lwp-mirror			sc_usage			zip
-etags				lwp-mirror5.18			scandeps.pl			zipcloak
-ex				lwp-request			scandeps5.18.pl			zipdetails
-execsnoop			lwp-request5.18			schemagen			zipdetails5.18
-expand				m4				scp				zipgrep
-expect				macbinary			screen				zipinfo
-extcheck			macerror			script				zipnote
-eyapp				macerror5.18			sdef				zipsplit
-eyapp5.18			machine				sdiff				zless
-false				mail				sdp				zmore
-fc				mailq				sdx				znew
-fddist				mailx				security			zprint
-fdesetup			make				sed
-fg				makeinfo			seeksize.d
-fgrep				malloc_history			segedit
-maclab-85:bin lance002$ cd /usr/bin
-maclab-85:bin lance002$ pwd
-/usr/bin
-maclab-85:bin lance002$ cd /usr
-maclab-85:usr lance002$ pwd
-/usr
-maclab-85:usr lance002$ cd . .
-maclab-85:usr lance002$ pwd
-/usr
-maclab-85:usr lance002$ cd /usr/bin
-maclab-85:bin lance002$ pwd
-/usr/bin
-maclab-85:bin lance002$ cd ./bin
--bash: cd: ./bin: No such file or directory
-maclab-85:bin lance002$ pwd
-/usr/bin
-maclab-85:bin lance002$ cd bin
--bash: cd: bin: No such file or directory
-maclab-85:bin lance002$ exit
+maclab-85:~ lance002$ ls /usr
+bin		libexec		sbin		standalone
+lib		local		share
+maclab-85:~ lance002$ ls ~ /usr
+/Users/lance002:
+Desktop		Downloads	Movies		Pictures	PycharmProjects
+Documents	Library		Music		Public
+
+/usr:
+bin		libexec		sbin		standalone
+lib		local		share
+maclab-85:~ lance002$ ls -l
+total 0
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Desktop
+drwx------+  3 lance002  UWP\Domain Users    96 Feb 11 15:12 Documents
+drwx------+  5 lance002  UWP\Domain Users   160 Feb 11 15:19 Downloads
+drwx------@ 58 lance002  UWP\Domain Users  1856 Feb  6 15:22 Library
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Movies
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Music
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Pictures
+drwxr-xr-x+  4 lance002  UWP\Domain Users   128 Feb  6 14:25 Public
+drwxr-xr-x   3 lance002  UWP\Domain Users    96 Feb  6 14:33 PycharmProjects
+maclab-85:~ lance002$ 
+maclab-85:~ lance002$ ls -lt
+total 0
+drwx------+  5 lance002  UWP\Domain Users   160 Feb 11 15:19 Downloads
+drwx------+  3 lance002  UWP\Domain Users    96 Feb 11 15:12 Documents
+drwx------@ 58 lance002  UWP\Domain Users  1856 Feb  6 15:22 Library
+drwxr-xr-x   3 lance002  UWP\Domain Users    96 Feb  6 14:33 PycharmProjects
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Desktop
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Movies
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Music
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Pictures
+drwxr-xr-x+  4 lance002  UWP\Domain Users   128 Feb  6 14:25 Public
+maclab-85:~ lance002$ ls -lt --reverse
+ls: illegal option -- -
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+maclab-85:~ lance002$ ls -lt -reverse
+total 0
+0 drwxr-xr-x+  4 lance002  UWP\Domain Users   128 Feb  6 14:25 Public
+ 0: group:everyone deny delete
+0 drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Pictures
+ 0: group:everyone deny delete
+0 drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Music
+ 0: group:everyone deny delete
+0 drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Movies
+ 0: group:everyone deny delete
+0 drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Desktop
+ 0: group:everyone deny delete
+0 drwxr-xr-x   3 lance002  UWP\Domain Users    96 Feb  6 14:33 PycharmProjects
+0 drwx------@ 58 lance002  UWP\Domain Users  1856 Feb  6 15:22 Library
+ 0: group:everyone deny delete
+0 drwx------+  3 lance002  UWP\Domain Users    96 Feb 11 15:12 Documents
+ 0: group:everyone deny delete
+0 drwx------+  5 lance002  UWP\Domain Users   160 Feb 11 15:19 Downloads
+ 0: group:everyone deny delete
+maclab-85:~ lance002$ file picture.jpg
+picture.jpg: cannot open `picture.jpg' (No such file or directory)
+maclab-85:~ lance002$ ls -example
+total 40
+drwxr-xr-x+ 16 lance002  UWP\Domain Users   512 Feb 13 14:04 ./
+ 0: group:everyone deny delete
+drwxr-xr-x  27 root      admin              864 Feb 13 10:45 ../
+-r--------   1 lance002  UWP\Domain Users     7 Feb  6 14:25 .CFUserTextEncoding
+-rw-r--r--@  1 lance002  UWP\Domain Users  8196 Feb 11 15:02 .DS_Store
+drwx------   3 lance002  UWP\Domain Users    96 Feb 13 14:04 .Trash/
+-rw-------   1 lance002  UWP\Domain Users  1597 Feb 11 15:26 .bash_history
+drwx------  23 lance002  UWP\Domain Users   736 Feb 13 14:16 .bash_sessions/
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Desktop/
+ 0: group:everyone deny delete
+drwx------+  3 lance002  UWP\Domain Users    96 Feb 11 15:12 Documents/
+ 0: group:everyone deny delete
+drwx------+  5 lance002  UWP\Domain Users   160 Feb 11 15:19 Downloads/
+ 0: group:everyone deny delete
+drwx------@ 58 lance002  UWP\Domain Users  1856 Feb  6 15:22 Library/
+ 0: group:everyone deny delete
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Movies/
+ 0: group:everyone deny delete
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Music/
+ 0: group:everyone deny delete
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Pictures/
+ 0: group:everyone deny delete
+drwxr-xr-x+  4 lance002  UWP\Domain Users   128 Feb  6 14:25 Public/
+ 0: group:everyone deny delete
+drwxr-xr-x   3 lance002  UWP\Domain Users    96 Feb  6 14:33 PycharmProjects/
+maclab-85:~ lance002$ -rw-r--r--
+-bash: -rw-r--r--: command not found
+maclab-85:~ lance002$ -rw-r-r-
+-bash: -rw-r-r-: command not found
+maclab-85:~ lance002$ -rw-r--r--
+-bash: -rw-r--r--: command not found
+maclab-85:~ lance002$ ls le
+ls: le: No such file or directory
+maclab-85:~ lance002$ ls -le
+total 0
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Desktop
+ 0: group:everyone deny delete
+drwx------+  3 lance002  UWP\Domain Users    96 Feb 11 15:12 Documents
+ 0: group:everyone deny delete
+drwx------+  5 lance002  UWP\Domain Users   160 Feb 11 15:19 Downloads
+ 0: group:everyone deny delete
+drwx------@ 58 lance002  UWP\Domain Users  1856 Feb  6 15:22 Library
+ 0: group:everyone deny delete
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Movies
+ 0: group:everyone deny delete
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Music
+ 0: group:everyone deny delete
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Pictures
+ 0: group:everyone deny delete
+drwxr-xr-x+  4 lance002  UWP\Domain Users   128 Feb  6 14:25 Public
+ 0: group:everyone deny delete
+drwxr-xr-x   3 lance002  UWP\Domain Users    96 Feb  6 14:33 PycharmProjects
+maclab-85:~ lance002$ ls -la
+total 40
+drwxr-xr-x+ 16 lance002  UWP\Domain Users   512 Feb 13 14:04 .
+drwxr-xr-x  27 root      admin              864 Feb 13 10:45 ..
+-r--------   1 lance002  UWP\Domain Users     7 Feb  6 14:25 .CFUserTextEncoding
+-rw-r--r--@  1 lance002  UWP\Domain Users  8196 Feb 11 15:02 .DS_Store
+drwx------   3 lance002  UWP\Domain Users    96 Feb 13 14:04 .Trash
+-rw-------   1 lance002  UWP\Domain Users  1597 Feb 11 15:26 .bash_history
+drwx------  23 lance002  UWP\Domain Users   736 Feb 13 14:16 .bash_sessions
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Desktop
+drwx------+  3 lance002  UWP\Domain Users    96 Feb 11 15:12 Documents
+drwx------+  5 lance002  UWP\Domain Users   160 Feb 11 15:19 Downloads
+drwx------@ 58 lance002  UWP\Domain Users  1856 Feb  6 15:22 Library
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Movies
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Music
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Pictures
+drwxr-xr-x+  4 lance002  UWP\Domain Users   128 Feb  6 14:25 Public
+drwxr-xr-x   3 lance002  UWP\Domain Users    96 Feb  6 14:33 PycharmProjects
+maclab-85:~ lance002$ ls -ld
+drwxr-xr-x+ 16 lance002  UWP\Domain Users  512 Feb 13 14:04 .
+maclab-85:~ lance002$ ls --all
+ls: illegal option -- -
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+maclab-85:~ lance002$ ls
+Desktop		Downloads	Movies		Pictures	PycharmProjects
+Documents	Library		Music		Public
+maclab-85:~ lance002$ ls -all
+total 40
+drwxr-xr-x+ 16 lance002  UWP\Domain Users   512 Feb 13 14:04 .
+drwxr-xr-x  27 root      admin              864 Feb 13 10:45 ..
+-r--------   1 lance002  UWP\Domain Users     7 Feb  6 14:25 .CFUserTextEncoding
+-rw-r--r--@  1 lance002  UWP\Domain Users  8196 Feb 11 15:02 .DS_Store
+drwx------   3 lance002  UWP\Domain Users    96 Feb 13 14:04 .Trash
+-rw-------   1 lance002  UWP\Domain Users  1597 Feb 11 15:26 .bash_history
+drwx------  23 lance002  UWP\Domain Users   736 Feb 13 14:16 .bash_sessions
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Desktop
+drwx------+  3 lance002  UWP\Domain Users    96 Feb 11 15:12 Documents
+drwx------+  5 lance002  UWP\Domain Users   160 Feb 11 15:19 Downloads
+drwx------@ 58 lance002  UWP\Domain Users  1856 Feb  6 15:22 Library
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Movies
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Music
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Pictures
+drwxr-xr-x+  4 lance002  UWP\Domain Users   128 Feb  6 14:25 Public
+drwxr-xr-x   3 lance002  UWP\Domain Users    96 Feb  6 14:33 PycharmProjects
+maclab-85:~ lance002$ ls -lr
+total 0
+drwxr-xr-x   3 lance002  UWP\Domain Users    96 Feb  6 14:33 PycharmProjects
+drwxr-xr-x+  4 lance002  UWP\Domain Users   128 Feb  6 14:25 Public
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Pictures
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Music
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Movies
+drwx------@ 58 lance002  UWP\Domain Users  1856 Feb  6 15:22 Library
+drwx------+  5 lance002  UWP\Domain Users   160 Feb 11 15:19 Downloads
+drwx------+  3 lance002  UWP\Domain Users    96 Feb 11 15:12 Documents
+drwx------+  3 lance002  UWP\Domain Users    96 Feb  6 14:25 Desktop
+maclab-85:~ lance002$ b
+-bash: b: command not found
+maclab-85:~ lance002$ /
+-bash: /: is a directory
+maclab-85:~ lance002$ /bin
+-bash: /bin: is a directory
+maclab-85:~ lance002$ /boot
+-bash: /boot: No such file or directory
+maclab-85:~ lance002$ /dev
+-bash: /dev: is a directory
+maclab-85:~ lance002$ /etc
+-bash: /etc: is a directory
+maclab-85:~ lance002$ /home
+-bash: /home: is a directory
+maclab-85:~ lance002$ cd /boot
+-bash: cd: /boot: No such file or directory
+maclab-85:~ lance002$ cd
+maclab-85:~ lance002$ cd /
+maclab-85:/ lance002$ cd /dev
+maclab-85:dev lance002$ ls-lt
+-bash: ls-lt: command not found
+maclab-85:dev lance002$ ls -l
+total 0
+crw-------  1 root      wheel              19,   1 Feb 13 07:00 afsc_type5
+crw-------  1 root      wheel              11,   1 Feb 13 07:00 auditpipe
+crw-r--r--  1 root      wheel              10,   3 Feb 13 07:00 auditsessions
+crw-------  1 root      wheel              31,   0 Feb 13 07:00 autofs
+crw-------  1 root      wheel              35,   0 Feb 13 07:00 autofs_control
+crw-rw-rw-  1 root      wheel              34,   3 Feb 13 07:00 autofs_homedirmounter
+crw-rw-rw-  1 root      wheel              33,   3 Feb 13 07:00 autofs_notrigger
+crw-rw-rw-  1 root      wheel              32, 0x00000467 Feb 13 07:00 autofs_nowait
+crw-------  1 root      wheel              23,   0 Feb 13 14:09 bpf0
+crw-------  1 root      wheel              23,   1 Feb 13 07:00 bpf1
+crw-------  1 root      wheel              23,   2 Feb 13 07:00 bpf2
+crw-------  1 root      wheel              23,   3 Feb 13 14:09 bpf3
+crw-------  1 root      wheel              23,   4 Feb 13 10:27 bpf4
+crw-------  1 root      wheel              23,   5 Feb 13 10:27 bpf5
+crw-------  1 lance002  UWP\Domain Users    0,   0 Feb 13 14:04 console
+crw-rw-rw-  1 root      wheel               9,   3 Feb 13 07:00 cu.Bluetooth-Incoming-Port
+crw-rw-rw-  1 root      wheel               9,   1 Feb 13 07:00 cu.URT1
+brw-r-----  1 root      operator            1,   0 Feb 13 07:00 disk0
+brw-r-----  1 root      operator            1,   1 Feb 13 07:00 disk0s1
+brw-r-----  1 root      operator            1,   3 Feb 13 07:00 disk0s2
+brw-r-----  1 root      operator            1,   2 Feb 13 07:00 disk0s3
+brw-r-----  1 root      operator            1,   4 Feb 13 07:00 disk1
+brw-r-----  1 root      operator            1,   5 Feb 13 07:00 disk1s1
+brw-r-----  1 root      operator            1,   6 Feb 13 07:00 disk1s2
+brw-r-----  1 root      operator            1,   7 Feb 13 07:00 disk1s3
+brw-r-----  1 root      operator            1,   8 Feb 13 07:00 disk1s4
+crw-rw-rw-  1 root      wheel              24,   0 Feb 13 07:00 dtrace
+crw-rw-rw-  1 root      wheel              25,   0 Feb 13 07:00 dtracehelper
+crw-rw-rw-  1 root      wheel               0,   0 Feb 13 07:00 fbt
+dr-xr-xr-x  1 root      wheel                    0 Feb 13 07:00 fd
+crw-r--r--  1 root      wheel              14,   0 Feb 13 07:00 fsevents
+crw-rw-rw-  1 root      wheel              20,  15 Feb 13 14:09 io8log
+cr--r--r--  1 root      wheel              20,  22 Feb 13 07:00 io8logmt
+crw-rw-rw-  1 root      wheel              20,  21 Feb 13 14:25 io8logtemp
+crw-------  1 root      wheel               6,   0 Feb 13 07:00 klog
+crw-rw-rw-  1 root      wheel               0,   0 Feb 13 07:00 lockstat
+crw-rw-rw-  1 root      wheel               0,   0 Feb 13 07:00 machtrace
+crw-rw-rw-  1 root      wheel              36,   0 Feb 13 10:45 nsmb0
+crw-rw-rw-  1 root      wheel               3,   2 Feb 13 14:27 null
+crw-------  1 root      wheel               7,   0 Feb 13 07:00 oslog
+crw-------  1 root      wheel               8,   0 Feb 13 07:00 oslog_stream
+crw-------  1 root      wheel              13,   0 Feb 13 07:00 pf
+crw-------  1 root      wheel              13,   1 Feb 13 07:00 pfm
+crw-rw-rw-  1 root      wheel               0,   0 Feb 13 07:00 profile
+crw-rw-rw-  1 root      tty                15,   1 Feb 13 14:27 ptmx
+crw-rw-rw-  1 root      wheel               5,   0 Feb 13 07:00 ptyp0
+crw-rw-rw-  1 root      wheel               5,   1 Feb 13 07:00 ptyp1
+crw-rw-rw-  1 root      wheel               5,   2 Feb 13 07:00 ptyp2
+crw-rw-rw-  1 root      wheel               5,   3 Feb 13 07:00 ptyp3
+crw-rw-rw-  1 root      wheel               5,   4 Feb 13 07:00 ptyp4
+crw-rw-rw-  1 root      wheel               5,   5 Feb 13 07:00 ptyp5
+crw-rw-rw-  1 root      wheel               5,   6 Feb 13 07:00 ptyp6
+crw-rw-rw-  1 root      wheel               5,   7 Feb 13 07:00 ptyp7
+crw-rw-rw-  1 root      wheel               5,   8 Feb 13 07:00 ptyp8
+crw-rw-rw-  1 root      wheel               5,   9 Feb 13 07:00 ptyp9
+crw-rw-rw-  1 root      wheel               5,  10 Feb 13 07:00 ptypa
+crw-rw-rw-  1 root      wheel               5,  11 Feb 13 07:00 ptypb
+crw-rw-rw-  1 root      wheel               5,  12 Feb 13 07:00 ptypc
+crw-rw-rw-  1 root      wheel               5,  13 Feb 13 07:00 ptypd
+crw-rw-rw-  1 root      wheel               5,  14 Feb 13 07:00 ptype
+crw-rw-rw-  1 root      wheel               5,  15 Feb 13 07:00 ptypf
+crw-rw-rw-  1 root      wheel               5,  16 Feb 13 07:00 ptyq0
+crw-rw-rw-  1 root      wheel               5,  17 Feb 13 07:00 ptyq1
+crw-rw-rw-  1 root      wheel               5,  18 Feb 13 07:00 ptyq2
+crw-rw-rw-  1 root      wheel               5,  19 Feb 13 07:00 ptyq3
+crw-rw-rw-  1 root      wheel               5,  20 Feb 13 07:00 ptyq4
+crw-rw-rw-  1 root      wheel               5,  21 Feb 13 07:00 ptyq5
+crw-rw-rw-  1 root      wheel               5,  22 Feb 13 07:00 ptyq6
+crw-rw-rw-  1 root      wheel               5,  23 Feb 13 07:00 ptyq7
+crw-rw-rw-  1 root      wheel               5,  24 Feb 13 07:00 ptyq8
+crw-rw-rw-  1 root      wheel               5,  25 Feb 13 07:00 ptyq9
+crw-rw-rw-  1 root      wheel               5,  26 Feb 13 07:00 ptyqa
+crw-rw-rw-  1 root      wheel               5,  27 Feb 13 07:00 ptyqb
+crw-rw-rw-  1 root      wheel               5,  28 Feb 13 07:00 ptyqc
+crw-rw-rw-  1 root      wheel               5,  29 Feb 13 07:00 ptyqd
+crw-rw-rw-  1 root      wheel               5,  30 Feb 13 07:00 ptyqe
+crw-rw-rw-  1 root      wheel               5,  31 Feb 13 07:00 ptyqf
+crw-rw-rw-  1 root      wheel               5,  32 Feb 13 07:00 ptyr0
+crw-rw-rw-  1 root      wheel               5,  33 Feb 13 07:00 ptyr1
+crw-rw-rw-  1 root      wheel               5,  34 Feb 13 07:00 ptyr2
+crw-rw-rw-  1 root      wheel               5,  35 Feb 13 07:00 ptyr3
+crw-rw-rw-  1 root      wheel               5,  36 Feb 13 07:00 ptyr4
+crw-rw-rw-  1 root      wheel               5,  37 Feb 13 07:00 ptyr5
+crw-rw-rw-  1 root      wheel               5,  38 Feb 13 07:00 ptyr6
+crw-rw-rw-  1 root      wheel               5,  39 Feb 13 07:00 ptyr7
+crw-rw-rw-  1 root      wheel               5,  40 Feb 13 07:00 ptyr8
+crw-rw-rw-  1 root      wheel               5,  41 Feb 13 07:00 ptyr9
+crw-rw-rw-  1 root      wheel               5,  42 Feb 13 07:00 ptyra
+crw-rw-rw-  1 root      wheel               5,  43 Feb 13 07:00 ptyrb
+crw-rw-rw-  1 root      wheel               5,  44 Feb 13 07:00 ptyrc
+crw-rw-rw-  1 root      wheel               5,  45 Feb 13 07:00 ptyrd
+crw-rw-rw-  1 root      wheel               5,  46 Feb 13 07:00 ptyre
+crw-rw-rw-  1 root      wheel               5,  47 Feb 13 07:00 ptyrf
+crw-rw-rw-  1 root      wheel               5,  48 Feb 13 07:00 ptys0
+crw-rw-rw-  1 root      wheel               5,  49 Feb 13 07:00 ptys1
+crw-rw-rw-  1 root      wheel               5,  50 Feb 13 07:00 ptys2
+crw-rw-rw-  1 root      wheel               5,  51 Feb 13 07:00 ptys3
+crw-rw-rw-  1 root      wheel               5,  52 Feb 13 07:00 ptys4
+crw-rw-rw-  1 root      wheel               5,  53 Feb 13 07:00 ptys5
+crw-rw-rw-  1 root      wheel               5,  54 Feb 13 07:00 ptys6
+crw-rw-rw-  1 root      wheel               5,  55 Feb 13 07:00 ptys7
+crw-rw-rw-  1 root      wheel               5,  56 Feb 13 07:00 ptys8
+crw-rw-rw-  1 root      wheel               5,  57 Feb 13 07:00 ptys9
+crw-rw-rw-  1 root      wheel               5,  58 Feb 13 07:00 ptysa
+crw-rw-rw-  1 root      wheel               5,  59 Feb 13 07:00 ptysb
+crw-rw-rw-  1 root      wheel               5,  60 Feb 13 07:00 ptysc
+crw-rw-rw-  1 root      wheel               5,  61 Feb 13 07:00 ptysd
+crw-rw-rw-  1 root      wheel               5,  62 Feb 13 07:00 ptyse
+crw-rw-rw-  1 root      wheel               5,  63 Feb 13 07:00 ptysf
+crw-rw-rw-  1 root      wheel               5,  64 Feb 13 07:00 ptyt0
+crw-rw-rw-  1 root      wheel               5,  65 Feb 13 07:00 ptyt1
+crw-rw-rw-  1 root      wheel               5,  66 Feb 13 07:00 ptyt2
+crw-rw-rw-  1 root      wheel               5,  67 Feb 13 07:00 ptyt3
+crw-rw-rw-  1 root      wheel               5,  68 Feb 13 07:00 ptyt4
+crw-rw-rw-  1 root      wheel               5,  69 Feb 13 07:00 ptyt5
+crw-rw-rw-  1 root      wheel               5,  70 Feb 13 07:00 ptyt6
+crw-rw-rw-  1 root      wheel               5,  71 Feb 13 07:00 ptyt7
+crw-rw-rw-  1 root      wheel               5,  72 Feb 13 07:00 ptyt8
+crw-rw-rw-  1 root      wheel               5,  73 Feb 13 07:00 ptyt9
+crw-rw-rw-  1 root      wheel               5,  74 Feb 13 07:00 ptyta
+crw-rw-rw-  1 root      wheel               5,  75 Feb 13 07:00 ptytb
+crw-rw-rw-  1 root      wheel               5,  76 Feb 13 07:00 ptytc
+crw-rw-rw-  1 root      wheel               5,  77 Feb 13 07:00 ptytd
+crw-rw-rw-  1 root      wheel               5,  78 Feb 13 07:00 ptyte
+crw-rw-rw-  1 root      wheel               5,  79 Feb 13 07:00 ptytf
+crw-rw-rw-  1 root      wheel               5,  80 Feb 13 07:00 ptyu0
+crw-rw-rw-  1 root      wheel               5,  81 Feb 13 07:00 ptyu1
+crw-rw-rw-  1 root      wheel               5,  82 Feb 13 07:00 ptyu2
+crw-rw-rw-  1 root      wheel               5,  83 Feb 13 07:00 ptyu3
+crw-rw-rw-  1 root      wheel               5,  84 Feb 13 07:00 ptyu4
+crw-rw-rw-  1 root      wheel               5,  85 Feb 13 07:00 ptyu5
+crw-rw-rw-  1 root      wheel               5,  86 Feb 13 07:00 ptyu6
+crw-rw-rw-  1 root      wheel               5,  87 Feb 13 07:00 ptyu7
+crw-rw-rw-  1 root      wheel               5,  88 Feb 13 07:00 ptyu8
+crw-rw-rw-  1 root      wheel               5,  89 Feb 13 07:00 ptyu9
+crw-rw-rw-  1 root      wheel               5,  90 Feb 13 07:00 ptyua
+crw-rw-rw-  1 root      wheel               5,  91 Feb 13 07:00 ptyub
+crw-rw-rw-  1 root      wheel               5,  92 Feb 13 07:00 ptyuc
+crw-rw-rw-  1 root      wheel               5,  93 Feb 13 07:00 ptyud
+crw-rw-rw-  1 root      wheel               5,  94 Feb 13 07:00 ptyue
+crw-rw-rw-  1 root      wheel               5,  95 Feb 13 07:00 ptyuf
+crw-rw-rw-  1 root      wheel               5,  96 Feb 13 07:00 ptyv0
+crw-rw-rw-  1 root      wheel               5,  97 Feb 13 07:00 ptyv1
+crw-rw-rw-  1 root      wheel               5,  98 Feb 13 07:00 ptyv2
+crw-rw-rw-  1 root      wheel               5,  99 Feb 13 07:00 ptyv3
+crw-rw-rw-  1 root      wheel               5, 100 Feb 13 07:00 ptyv4
+crw-rw-rw-  1 root      wheel               5, 101 Feb 13 07:00 ptyv5
+crw-rw-rw-  1 root      wheel               5, 102 Feb 13 07:00 ptyv6
+crw-rw-rw-  1 root      wheel               5, 103 Feb 13 07:00 ptyv7
+crw-rw-rw-  1 root      wheel               5, 104 Feb 13 07:00 ptyv8
+crw-rw-rw-  1 root      wheel               5, 105 Feb 13 07:00 ptyv9
+crw-rw-rw-  1 root      wheel               5, 106 Feb 13 07:00 ptyva
+crw-rw-rw-  1 root      wheel               5, 107 Feb 13 07:00 ptyvb
+crw-rw-rw-  1 root      wheel               5, 108 Feb 13 07:00 ptyvc
+crw-rw-rw-  1 root      wheel               5, 109 Feb 13 07:00 ptyvd
+crw-rw-rw-  1 root      wheel               5, 110 Feb 13 07:00 ptyve
+crw-rw-rw-  1 root      wheel               5, 111 Feb 13 07:00 ptyvf
+crw-rw-rw-  1 root      wheel               5, 112 Feb 13 07:00 ptyw0
+crw-rw-rw-  1 root      wheel               5, 113 Feb 13 07:00 ptyw1
+crw-rw-rw-  1 root      wheel               5, 114 Feb 13 07:00 ptyw2
+crw-rw-rw-  1 root      wheel               5, 115 Feb 13 07:00 ptyw3
+crw-rw-rw-  1 root      wheel               5, 116 Feb 13 07:00 ptyw4
+crw-rw-rw-  1 root      wheel               5, 117 Feb 13 07:00 ptyw5
+crw-rw-rw-  1 root      wheel               5, 118 Feb 13 07:00 ptyw6
+crw-rw-rw-  1 root      wheel               5, 119 Feb 13 07:00 ptyw7
+crw-rw-rw-  1 root      wheel               5, 120 Feb 13 07:00 ptyw8
+crw-rw-rw-  1 root      wheel               5, 121 Feb 13 07:00 ptyw9
+crw-rw-rw-  1 root      wheel               5, 122 Feb 13 07:00 ptywa
+crw-rw-rw-  1 root      wheel               5, 123 Feb 13 07:00 ptywb
+crw-rw-rw-  1 root      wheel               5, 124 Feb 13 07:00 ptywc
+crw-rw-rw-  1 root      wheel               5, 125 Feb 13 07:00 ptywd
+crw-rw-rw-  1 root      wheel               5, 126 Feb 13 07:00 ptywe
+crw-rw-rw-  1 root      wheel               5, 127 Feb 13 07:00 ptywf
+crw-rw-rw-  1 root      wheel              17,   0 Feb 13 11:04 random
+crw-r-----  1 root      operator            1,   0 Feb 13 07:00 rdisk0
+crw-r-----  1 root      operator            1,   1 Feb 13 07:00 rdisk0s1
+crw-r-----  1 root      operator            1,   3 Feb 13 07:00 rdisk0s2
+crw-r-----  1 root      operator            1,   2 Feb 13 07:00 rdisk0s3
+crw-r-----  1 root      operator            1,   4 Feb 13 07:00 rdisk1
+crw-r-----  1 root      operator            1,   5 Feb 13 07:00 rdisk1s1
+crw-r-----  1 root      operator            1,   6 Feb 13 07:00 rdisk1s2
+crw-r-----  1 root      operator            1,   7 Feb 13 07:00 rdisk1s3
+crw-r-----  1 root      operator            1,   8 Feb 13 07:00 rdisk1s4
+crw-rw-rw-  1 root      wheel               0,   0 Feb 13 07:00 sdt
+lr-xr-xr-x  1 root      wheel                    0 Feb 13 07:00 stderr -> fd/2
+lr-xr-xr-x  1 root      wheel                    0 Feb 13 07:00 stdin -> fd/0
+lr-xr-xr-x  1 root      wheel                    0 Feb 13 07:00 stdout -> fd/1
+crw-rw-rw-  1 root      wheel               0,   0 Feb 13 07:00 systrace
+crw-rw-rw-  1 root      wheel               2,   0 Feb 13 07:00 tty
+crw-rw-rw-  1 root      wheel               9,   2 Feb 13 07:00 tty.Bluetooth-Incoming-Port
+crw-rw-rw-  1 root      wheel               9,   0 Feb 13 07:00 tty.URT1
+crw-rw-rw-  1 root      wheel               4,   0 Feb 13 07:00 ttyp0
+crw-rw-rw-  1 root      wheel               4,   1 Feb 13 07:00 ttyp1
+crw-rw-rw-  1 root      wheel               4,   2 Feb 13 07:00 ttyp2
+crw-rw-rw-  1 root      wheel               4,   3 Feb 13 07:00 ttyp3
+crw-rw-rw-  1 root      wheel               4,   4 Feb 13 07:00 ttyp4
+crw-rw-rw-  1 root      wheel               4,   5 Feb 13 07:00 ttyp5
+crw-rw-rw-  1 root      wheel               4,   6 Feb 13 07:00 ttyp6
+crw-rw-rw-  1 root      wheel               4,   7 Feb 13 07:00 ttyp7
+crw-rw-rw-  1 root      wheel               4,   8 Feb 13 07:00 ttyp8
+crw-rw-rw-  1 root      wheel               4,   9 Feb 13 07:00 ttyp9
+crw-rw-rw-  1 root      wheel               4,  10 Feb 13 07:00 ttypa
+crw-rw-rw-  1 root      wheel               4,  11 Feb 13 07:00 ttypb
+crw-rw-rw-  1 root      wheel               4,  12 Feb 13 07:00 ttypc
+crw-rw-rw-  1 root      wheel               4,  13 Feb 13 07:00 ttypd
+crw-rw-rw-  1 root      wheel               4,  14 Feb 13 07:00 ttype
+crw-rw-rw-  1 root      wheel               4,  15 Feb 13 07:00 ttypf
+crw-rw-rw-  1 root      wheel               4,  16 Feb 13 07:00 ttyq0
+crw-rw-rw-  1 root      wheel               4,  17 Feb 13 07:00 ttyq1
+crw-rw-rw-  1 root      wheel               4,  18 Feb 13 07:00 ttyq2
+crw-rw-rw-  1 root      wheel               4,  19 Feb 13 07:00 ttyq3
+crw-rw-rw-  1 root      wheel               4,  20 Feb 13 07:00 ttyq4
+crw-rw-rw-  1 root      wheel               4,  21 Feb 13 07:00 ttyq5
+crw-rw-rw-  1 root      wheel               4,  22 Feb 13 07:00 ttyq6
+crw-rw-rw-  1 root      wheel               4,  23 Feb 13 07:00 ttyq7
+crw-rw-rw-  1 root      wheel               4,  24 Feb 13 07:00 ttyq8
+crw-rw-rw-  1 root      wheel               4,  25 Feb 13 07:00 ttyq9
+crw-rw-rw-  1 root      wheel               4,  26 Feb 13 07:00 ttyqa
+crw-rw-rw-  1 root      wheel               4,  27 Feb 13 07:00 ttyqb
+crw-rw-rw-  1 root      wheel               4,  28 Feb 13 07:00 ttyqc
+crw-rw-rw-  1 root      wheel               4,  29 Feb 13 07:00 ttyqd
+crw-rw-rw-  1 root      wheel               4,  30 Feb 13 07:00 ttyqe
+crw-rw-rw-  1 root      wheel               4,  31 Feb 13 07:00 ttyqf
+crw-rw-rw-  1 root      wheel               4,  32 Feb 13 07:00 ttyr0
+crw-rw-rw-  1 root      wheel               4,  33 Feb 13 07:00 ttyr1
+crw-rw-rw-  1 root      wheel               4,  34 Feb 13 07:00 ttyr2
+crw-rw-rw-  1 root      wheel               4,  35 Feb 13 07:00 ttyr3
+crw-rw-rw-  1 root      wheel               4,  36 Feb 13 07:00 ttyr4
+crw-rw-rw-  1 root      wheel               4,  37 Feb 13 07:00 ttyr5
+crw-rw-rw-  1 root      wheel               4,  38 Feb 13 07:00 ttyr6
+crw-rw-rw-  1 root      wheel               4,  39 Feb 13 07:00 ttyr7
+crw-rw-rw-  1 root      wheel               4,  40 Feb 13 07:00 ttyr8
+crw-rw-rw-  1 root      wheel               4,  41 Feb 13 07:00 ttyr9
+crw-rw-rw-  1 root      wheel               4,  42 Feb 13 07:00 ttyra
+crw-rw-rw-  1 root      wheel               4,  43 Feb 13 07:00 ttyrb
+crw-rw-rw-  1 root      wheel               4,  44 Feb 13 07:00 ttyrc
+crw-rw-rw-  1 root      wheel               4,  45 Feb 13 07:00 ttyrd
+crw-rw-rw-  1 root      wheel               4,  46 Feb 13 07:00 ttyre
+crw-rw-rw-  1 root      wheel               4,  47 Feb 13 07:00 ttyrf
+crw-rw-rw-  1 root      wheel               4,  48 Feb 13 07:00 ttys0
+crw--w----  1 lance002  tty                16,   0 Feb 13 14:27 ttys000
+crw-rw-rw-  1 root      wheel               4,  49 Feb 13 07:00 ttys1
+crw-rw-rw-  1 root      wheel               4,  50 Feb 13 07:00 ttys2
+crw-rw-rw-  1 root      wheel               4,  51 Feb 13 07:00 ttys3
+crw-rw-rw-  1 root      wheel               4,  52 Feb 13 07:00 ttys4
+crw-rw-rw-  1 root      wheel               4,  53 Feb 13 07:00 ttys5
+crw-rw-rw-  1 root      wheel               4,  54 Feb 13 07:00 ttys6
+crw-rw-rw-  1 root      wheel               4,  55 Feb 13 07:00 ttys7
+crw-rw-rw-  1 root      wheel               4,  56 Feb 13 07:00 ttys8
+crw-rw-rw-  1 root      wheel               4,  57 Feb 13 07:00 ttys9
+crw-rw-rw-  1 root      wheel               4,  58 Feb 13 07:00 ttysa
+crw-rw-rw-  1 root      wheel               4,  59 Feb 13 07:00 ttysb
+crw-rw-rw-  1 root      wheel               4,  60 Feb 13 07:00 ttysc
+crw-rw-rw-  1 root      wheel               4,  61 Feb 13 07:00 ttysd
+crw-rw-rw-  1 root      wheel               4,  62 Feb 13 07:00 ttyse
+crw-rw-rw-  1 root      wheel               4,  63 Feb 13 07:00 ttysf
+crw-rw-rw-  1 root      wheel               4,  64 Feb 13 07:00 ttyt0
+crw-rw-rw-  1 root      wheel               4,  65 Feb 13 07:00 ttyt1
+crw-rw-rw-  1 root      wheel               4,  66 Feb 13 07:00 ttyt2
+crw-rw-rw-  1 root      wheel               4,  67 Feb 13 07:00 ttyt3
+crw-rw-rw-  1 root      wheel               4,  68 Feb 13 07:00 ttyt4
+crw-rw-rw-  1 root      wheel               4,  69 Feb 13 07:00 ttyt5
+crw-rw-rw-  1 root      wheel               4,  70 Feb 13 07:00 ttyt6
+crw-rw-rw-  1 root      wheel               4,  71 Feb 13 07:00 ttyt7
+crw-rw-rw-  1 root      wheel               4,  72 Feb 13 07:00 ttyt8
+crw-rw-rw-  1 root      wheel               4,  73 Feb 13 07:00 ttyt9
+crw-rw-rw-  1 root      wheel               4,  74 Feb 13 07:00 ttyta
+crw-rw-rw-  1 root      wheel               4,  75 Feb 13 07:00 ttytb
+crw-rw-rw-  1 root      wheel               4,  76 Feb 13 07:00 ttytc
+crw-rw-rw-  1 root      wheel               4,  77 Feb 13 07:00 ttytd
+crw-rw-rw-  1 root      wheel               4,  78 Feb 13 07:00 ttyte
+crw-rw-rw-  1 root      wheel               4,  79 Feb 13 07:00 ttytf
+crw-rw-rw-  1 root      wheel               4,  80 Feb 13 07:00 ttyu0
+crw-rw-rw-  1 root      wheel               4,  81 Feb 13 07:00 ttyu1
+crw-rw-rw-  1 root      wheel               4,  82 Feb 13 07:00 ttyu2
+crw-rw-rw-  1 root      wheel               4,  83 Feb 13 07:00 ttyu3
+crw-rw-rw-  1 root      wheel               4,  84 Feb 13 07:00 ttyu4
+crw-rw-rw-  1 root      wheel               4,  85 Feb 13 07:00 ttyu5
+crw-rw-rw-  1 root      wheel               4,  86 Feb 13 07:00 ttyu6
+crw-rw-rw-  1 root      wheel               4,  87 Feb 13 07:00 ttyu7
+crw-rw-rw-  1 root      wheel               4,  88 Feb 13 07:00 ttyu8
+crw-rw-rw-  1 root      wheel               4,  89 Feb 13 07:00 ttyu9
+crw-rw-rw-  1 root      wheel               4,  90 Feb 13 07:00 ttyua
+crw-rw-rw-  1 root      wheel               4,  91 Feb 13 07:00 ttyub
+crw-rw-rw-  1 root      wheel               4,  92 Feb 13 07:00 ttyuc
+crw-rw-rw-  1 root      wheel               4,  93 Feb 13 07:00 ttyud
+crw-rw-rw-  1 root      wheel               4,  94 Feb 13 07:00 ttyue
+crw-rw-rw-  1 root      wheel               4,  95 Feb 13 07:00 ttyuf
+crw-rw-rw-  1 root      wheel               4,  96 Feb 13 07:00 ttyv0
+crw-rw-rw-  1 root      wheel               4,  97 Feb 13 07:00 ttyv1
+crw-rw-rw-  1 root      wheel               4,  98 Feb 13 07:00 ttyv2
+crw-rw-rw-  1 root      wheel               4,  99 Feb 13 07:00 ttyv3
+crw-rw-rw-  1 root      wheel               4, 100 Feb 13 07:00 ttyv4
+crw-rw-rw-  1 root      wheel               4, 101 Feb 13 07:00 ttyv5
+crw-rw-rw-  1 root      wheel               4, 102 Feb 13 07:00 ttyv6
+crw-rw-rw-  1 root      wheel               4, 103 Feb 13 07:00 ttyv7
+crw-rw-rw-  1 root      wheel               4, 104 Feb 13 07:00 ttyv8
+crw-rw-rw-  1 root      wheel               4, 105 Feb 13 07:00 ttyv9
+crw-rw-rw-  1 root      wheel               4, 106 Feb 13 07:00 ttyva
+crw-rw-rw-  1 root      wheel               4, 107 Feb 13 07:00 ttyvb
+crw-rw-rw-  1 root      wheel               4, 108 Feb 13 07:00 ttyvc
+crw-rw-rw-  1 root      wheel               4, 109 Feb 13 07:00 ttyvd
+crw-rw-rw-  1 root      wheel               4, 110 Feb 13 07:00 ttyve
+crw-rw-rw-  1 root      wheel               4, 111 Feb 13 07:00 ttyvf
+crw-rw-rw-  1 root      wheel               4, 112 Feb 13 07:00 ttyw0
+crw-rw-rw-  1 root      wheel               4, 113 Feb 13 07:00 ttyw1
+crw-rw-rw-  1 root      wheel               4, 114 Feb 13 07:00 ttyw2
+crw-rw-rw-  1 root      wheel               4, 115 Feb 13 07:00 ttyw3
+crw-rw-rw-  1 root      wheel               4, 116 Feb 13 07:00 ttyw4
+crw-rw-rw-  1 root      wheel               4, 117 Feb 13 07:00 ttyw5
+crw-rw-rw-  1 root      wheel               4, 118 Feb 13 07:00 ttyw6
+crw-rw-rw-  1 root      wheel               4, 119 Feb 13 07:00 ttyw7
+crw-rw-rw-  1 root      wheel               4, 120 Feb 13 07:00 ttyw8
+crw-rw-rw-  1 root      wheel               4, 121 Feb 13 07:00 ttyw9
+crw-rw-rw-  1 root      wheel               4, 122 Feb 13 07:00 ttywa
+crw-rw-rw-  1 root      wheel               4, 123 Feb 13 07:00 ttywb
+crw-rw-rw-  1 root      wheel               4, 124 Feb 13 07:00 ttywc
+crw-rw-rw-  1 root      wheel               4, 125 Feb 13 07:00 ttywd
+crw-rw-rw-  1 root      wheel               4, 126 Feb 13 07:00 ttywe
+crw-rw-rw-  1 root      wheel               4, 127 Feb 13 07:00 ttywf
+crw-rw-rw-  1 root      wheel              22,   1 Feb 13 07:00 uart.BLTH
+crw-rw-rw-  1 root      wheel              22,   0 Feb 13 07:00 uart.URT1
+crw-rw-rw-  1 root      wheel              17,   1 Feb 13 07:00 urandom
+crw-rw----  1 root      _windowserver      21,   0 Feb 13 07:00 xcpm
+crw-rw-rw-  1 root      wheel               3,   3 Feb 13 07:00 zero
+maclab-85:dev lance002$ file zero
+zero: character special (3/3)
+maclab-85:dev lance002$ less zero
+zero is not a regular file (use -f to see it)
+maclab-85:dev lance002$ -f
+-bash: -f: command not found
+maclab-85:dev lance002$ less -f
+Missing filename ("less --help" for help)
+maclab-85:dev lance002$ less zero
+zero is not a regular file (use -f to see it)
+maclab-85:dev lance002$ -f zero
+-bash: -f: command not found
+maclab-85:dev lance002$ less /etc/passwd
+maclab-85:dev lance002$ 
+maclab-85:dev lance002$ h
+-bash: h: command not found
+maclab-85:dev lance002$ cd /media
+-bash: cd: /media: No such file or directory
+maclab-85:dev lance002$ cd /home
+maclab-85:home lance002$ ls -l
+maclab-85:home lance002$ ls
+maclab-85:home lance002$ ls -lt
+maclab-85:home lance002$ cd /tmp
+maclab-85:tmp lance002$ ls -l
+total 16
+drwxr-xr-x  2 ortiz043  wheel    64 Feb 13 10:46 0ED163A8-C713-45E0-9387-46DEF8E353A5
+drwxr-xr-x  3 ortiz043  wheel    96 Feb 13 10:47 1977821F-BD7B-47C5-87D3-55DFC4B13F36
+drwxr-xr-x  3 ortiz043  wheel    96 Feb 13 10:46 31791D65-69C5-4A68-91EE-69A1A5F39F02
+prw-rw-rw-  1 ortiz043  wheel     0 Feb 13 10:47 36484E94-59D7-47E6-B82E-81A99441518F_IN
+prw-rw-rw-  1 ortiz043  wheel     0 Feb 13 10:47 36484E94-59D7-47E6-B82E-81A99441518F_OUT
+drwxr-xr-x  3 lance002  wheel    96 Feb 13 14:04 3759AF8F-404B-473B-B1E2-E12DF252A5B7
+drwxr-xr-x  2 ortiz043  wheel    64 Feb 13 10:47 629A9BD4-BDAD-4F77-BEE2-7047B0DA9652
+drwxr-xr-x  3 ortiz043  wheel    96 Feb 13 10:47 65E70C41-2C24-4559-8EFE-384D52D601C6
+prw-rw-rw-  1 ortiz043  wheel     0 Feb 13 10:47 6F3A7115-BF35-4EDD-BA98-95549E786358_IN
+prw-rw-rw-  1 ortiz043  wheel     0 Feb 13 10:47 6F3A7115-BF35-4EDD-BA98-95549E786358_OUT
+drwxr-xr-x  2 lance002  wheel    64 Feb 13 14:04 7F4A7109-D65E-4138-B869-B7003C80B4F0
+drwxr-xr-x  2 ortiz043  wheel    64 Feb 13 10:46 95230A8D-5FED-44E3-95A1-2D3A470FE44D
+-rw-r--r--  1 root      wheel     0 Feb 13 07:00 AlTest1.err
+-rw-r--r--  1 root      wheel     0 Feb 13 07:00 AlTest1.out
+drwxr-xr-x  2 lance002  wheel    64 Feb 13 14:04 C50504D2-4FA2-4133-A84A-0C4818DB5564
+drwxr-xr-x  3 ortiz043  wheel    96 Feb 13 10:47 EF615F57-950D-4AA9-BE20-3BDD111ACFE1
+drwxr-xr-x  2 lance002  wheel    64 Feb 13 14:04 EF82C33F-7F73-4B4C-B34F-1C0292B9102B
+-rw-r--r--  1 ortiz043  wheel     0 Feb 13 10:46 ExmanProcessMutex
+-rw-rw-rw-  1 root      wheel  6336 Feb 13 11:24 adobegc.log
+srwx------  1 lance002  wheel     0 Feb 13 14:04 com.adobe.AdobeIPCBroker.ctrl-lance002
+srwx------  1 ortiz043  wheel     0 Feb 13 10:46 com.adobe.AdobeIPCBroker.ctrl-ortiz043
+drwx------  3 ortiz043  wheel    96 Feb 13 10:45 com.apple.launchd.GJSpxmOFNy
+drwx------  3 lance002  wheel    96 Feb 13 14:04 com.apple.launchd.JuAm365ktx
+drwx------  3 ortiz043  wheel    96 Feb 13 10:45 com.apple.launchd.MGueo33kvY
+drwx------  3 lance002  wheel    96 Feb 13 14:04 com.apple.launchd.cNNQFIvWEe
+-rw-------  1 ortiz043  wheel     0 Feb 13 10:47 crash_repo_pref.txt
+drwxr-xr-x  2 ortiz043  wheel    64 Feb 13 10:51 lilo.2628
+maclab-85:tmp lance002$ less lilo.2628
+lilo.2628 is a directory
+maclab-85:tmp lance002$ file lilo.2628
+lilo.2628: directory
+maclab-85:tmp lance002$ cd lilo.2628
+maclab-85:lilo.2628 lance002$ ls
+maclab-85:lilo.2628 lance002$ ;s -l
+-bash: syntax error near unexpected token `;'
+maclab-85:lilo.2628 lance002$ ls -l
+maclab-85:lilo.2628 lance002$ less
+Missing filename ("less --help" for help)
+maclab-85:lilo.2628 lance002$ ls
+maclab-85:lilo.2628 lance002$ pwd
+/tmp/lilo.2628
+maclab-85:lilo.2628 lance002$ end
+-bash: end: command not found
+maclab-85:lilo.2628 lance002$ exit
 logout
 Saving session...
 ...copying shared history...
 ...saving history...truncating history files...
 ...completed.
+Deleting expired sessions...none found.
 
 [Process completed]
 
